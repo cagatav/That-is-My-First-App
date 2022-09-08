@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/background"
+    tools:context=".fragment.HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/home"
+        android:textColor="@color/gold"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line11"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/gold" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/line11"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profileico" />
+
+    <TextView
+        android:id="@+id/profilePhone"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/line11"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shapebackground"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        app:drawableTint="@color/gold" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/profileico" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/line11"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/namexdd" />
+
+    <TextView
+        android:id="@+id/part11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line11"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="40dp"
+        android:text="Enes Çağatay SÖZEN"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im1"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/mailxdd" />
+
+    <TextView
+        android:id="@+id/part12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part11"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="s190444038@stu.thk.edu.tr"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im2"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/phonexdd" />
+
+    <TextView
+        android:id="@+id/part13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part12"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="5075472472"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/profilePhone1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/profilePhone"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shapebackground"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        app:drawableTint="@color/gold" />
+
+    <ImageView
+        android:id="@+id/im21"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/profilePhone"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/namexdd" />
+
+    <TextView
+        android:id="@+id/part21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilePhone"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="40dp"
+        android:text="Çağatay SÖZEN"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im22"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im21"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/mailxdd" />
+
+    <TextView
+        android:id="@+id/part22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part21"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="cgty.szn@gmail.com"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im23"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im22"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/phonexdd" />
+
+    <TextView
+        android:id="@+id/part23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part22"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="5555555555"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/icon1"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/profileico" />
+
+    <TextView
+        android:id="@+id/profilePhone2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/profilePhone1"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shapebackground"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        app:drawableTint="@color/gold" />
+
+    <ImageView
+        android:id="@+id/im31"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/profilePhone1"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/namexdd" />
+
+    <TextView
+        android:id="@+id/part31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profilePhone1"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/full_name"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im32"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im31"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/mailxdd" />
+
+    <TextView
+        android:id="@+id/part32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part31"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/email"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/im33"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/im32"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/phonexdd" />
+
+    <TextView
+        android:id="@+id/part33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part32"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/phone"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/icon5"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/icon6"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/icon2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/right" />
+
+
+</RelativeLayout>

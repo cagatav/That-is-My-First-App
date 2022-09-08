@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "637768359054",
+    "firebase_url": "https://thatismyfirstapp-default-rtdb.firebaseio.com",
+    "project_id": "thatismyfirstapp",
+    "storage_bucket": "thatismyfirstapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637768359054:android:d36dedea4e4b9782df3ddf",
+        "android_client_info": {
+          "package_name": "com.example.thatsmyfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637768359054-249aech6sk22176ruv386luq4shn8pj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQn5mX-nsG7DndRv1vYEnswMrL8IkToqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637768359054-249aech6sk22176ruv386luq4shn8pj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        tools:context=".fragment.ProfileFragment">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Change Password"
+            android:textColor="@color/gold"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/line11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/gold" />
+
+        <TextView
+            android:id="@+id/new1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line11"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="Old Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/new3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/new2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new3"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/key"
+
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+
+            android:hint="Confirm New Password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/profileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new2"
+            android:layout_marginHorizontal="75dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="Change Password"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/profileBts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileBtn"
+            android:layout_marginHorizontal="140dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="Back"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</layout>

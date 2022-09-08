@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        tools:context=".LoginFragment"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/registerImage"
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/signup" />
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerImage"
+            android:gravity="center"
+            android:text="@string/let_s_create_your_account"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerText"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/name"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="@string/name"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerName"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/mail"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="@string/email"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/registerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEmail"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/name"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="@string/phone"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/registerPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerPhone"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/registerConfirmPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerPass"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shapebackground"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="20dp"
+            android:drawableTint="@color/gold"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColorHint="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/registerCreateAccBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerConfirmPass"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/create_account"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+        <ProgressBar
+            android:id="@+id/registerProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/registerConfirmPass"
+            android:layout_marginTop="15dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/registerText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerCreateAccBtn"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/registerLoginBtn"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerText2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/log_in" />
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ /**
+  ~  * Created by Cihat Mert Baykal
+  ~  * Copyright (c) Ikol Mobile. All rights reserved.
+  ~  * Last modified 7/22/20 11:43 AM
+  ~  */
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="1000"
+        android:fromYDelta="0%p"
+        android:toYDelta="0%p" />
+</set>

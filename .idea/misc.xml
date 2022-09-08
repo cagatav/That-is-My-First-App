@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/activity_login.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/activity_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/activity_main1.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/activity_register.xml" value="0.16304347826086957" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/fragment_login.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/fragment_main.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/Burak/Desktop/thatissmyfirstapp-master/app/src/main/res/layout/fragment_profile.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/drawable/shapebackground.xml" value="0.104" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/drawable/shapeloginbutton.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_createaccount.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_edit_profile.xml" value="0.29583333333333334" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_forgot_password.xml" value="0.2988679352838745" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_forgotpassword.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_home.xml" value="0.2264151024877837" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_home2.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_homescreen.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_login.xml" value="0.2264151024877837" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_main.xml" value="0.2988679352838745" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_main2.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_register.xml" value="0.1901886860897383" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/activity_splash.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/content_main.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_change_pass.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_dashboard.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_deletefragment.xml" value="0.14387031408308004" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_edit_profile.xml" value="0.3098958333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_first.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_home2.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_notifications.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_profile.xml" value="0.2988679352838745" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_second.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/fragment_settings.xml" value="0.2264151024877837" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/home_activity.xml" value="0.1" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/layout/homescreenactivity.xml" value="0.28396739130434784" />
+        <entry key="..\:/Users/cgtys/AndroidStudioProjects/thatsmyfirstapp2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/cgtys/OneDrive/Belgeler/thatissmyfirstapp-master/app/src/main/res/layout/fragment_main.xml" value="0.15070921985815602" />
+        <entry key="..\:/Users/cgtys/OneDrive/Belgeler/thatissmyfirstapp-master/app/src/main/res/layout/fragment_profile.xml" value="0.15070921985815602" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/drawable/shapeloginbutton.xml" value="0.1" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/activity_forgot_password.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/activity_login.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/activity_register.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/activity_splash.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/app_bar_main.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/content_main.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_change_pass.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_home.xml" value="0.2988679352838745" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_login.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_main.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_profile.xml" value="0.20244565217391305" />
+        <entry key="..\:/thatissmyfirstapp-master/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

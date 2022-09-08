@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        tools:context=".fragment.SettingsFragment">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/settings"
+            android:textColor="@color/gold"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <View
+            android:id="@+id/line11"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="45dp"
+            android:background="@color/gold"/>
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/shapeloginbutton"
+            android:gravity="center"
+            android:text="@string/that_s_my_first_app"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/appname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/appicon"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="600dp"
+            android:gravity="center"
+            android:text="@string/cagatav"
+            android:textColor="@color/gold"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/change_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/change_password"
+            android:textColor="@color/white"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logoutbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="525dp"
+            android:background="@drawable/shapeloginbutton"
+            android:text="@string/log_out"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</layout>

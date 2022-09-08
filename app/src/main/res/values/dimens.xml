@@ -1,0 +1,116 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+
+    <dimen name="zero">0dp</dimen>
+    <dimen name="divider_size">0.5dp</dimen>
+    <dimen name="close_button_height">30dp</dimen>
+    <dimen name="close_button_width">30dp</dimen>
+    <dimen name="progress_bar_height">25dp</dimen>
+    <dimen name="progress_bar_width">30dp</dimen>
+    <dimen name="dot_size">6dp</dimen>
+    <dimen name="edit_text_cursor_width">1dp</dimen>
+    <dimen name="flag_width">20dp</dimen>
+    <dimen name="flag_height">15dp</dimen>
+    <dimen name="toggle_button_width">70dp</dimen>
+    <dimen name="standard_elevation">6dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="bt_animation_height">300dp</dimen>
+
+    <dimen name="device_detail_top_padding_height">20dp</dimen>
+    <dimen name="device_detail_bottom_padding_height">20dp</dimen>
+
+    <dimen name="toolbar_icon_size">30dp</dimen>
+    <!--endregion General Dimensions-->
+
+    <!--region Line Spacing Dimensions -->
+    <dimen name="line_spacing_2">2sp</dimen>
+    <dimen name="line_spacing_7">7sp</dimen>
+    <dimen name="line_spacing_36">36sp</dimen>
+    <!--endregion Line Spacing Dimensions -->
+
+    <!--region Radius Dimensions -->
+    <dimen name="radius_4">4dp</dimen>
+    <dimen name="radius_5">5dp</dimen>
+    <dimen name="radius_6">6dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_20">20dp</dimen>
+    <!--endregion Radius Dimensions -->
+
+    <!--region Margin Dimensions -->
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_65">65dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_75">75dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <!--endregion Margin Dimensions -->
+
+    <!--region Padding Dimensions-->
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_6">6dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_9">9dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_11">11dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_25">25dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_80">80dp</dimen>d
+    <!--endregion Padding Dimensions-->
+
+    <!--region Font Sizes-->
+    <dimen name="font_2">2dp</dimen>
+    <dimen name="font_9">9dp</dimen>
+    <dimen name="font_10">10dp</dimen>
+    <dimen name="font_12">12dp</dimen>
+    <dimen name="font_13">13dp</dimen>
+    <dimen name="font_14">14dp</dimen>
+    <dimen name="font_15">15dp</dimen>
+    <dimen name="font_16">16dp</dimen>
+    <dimen name="font_17">17dp</dimen>
+    <dimen name="font_18">18dp</dimen>
+    <dimen name="font_19">19dp</dimen>
+    <dimen name="font_20">20dp</dimen>
+    <dimen name="font_22">22dp</dimen>
+    <dimen name="font_24">24dp</dimen>
+    <dimen name="font_25">25dp</dimen>
+</resources>
