@@ -1,6 +1,4 @@
 package com.example.thatsmyfirstapp;
-
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -14,14 +12,9 @@ import com.example.thatsmyfirstapp.util.NavigationHelper;
 import com.example.thatsmyfirstapp.util.UtilHelper;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-
 public class MainActivity extends AppCompatActivity {
-
-
     boolean doubleBackToExitPressedOnce = false;
     private FirebaseAuth mAuth;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,25 +32,19 @@ public class MainActivity extends AppCompatActivity {
             NavigationHelper.navigate(new LoginFragment(), NavigationHelper.NavType.Replace,
                     NavigationHelper.NavStack.BoatAdd, NavigationHelper.NavAnim.Fade);
         }
-
     }
-
     @Override
     public void onBackPressed() {
         UtilHelper.hideKeyboard(this);
-
-
-        if (NavigationHelper.getLast().getClass() == MainFragment.class || NavigationHelper.getLast().getClass() == LoginFragment.class) {
+        if (NavigationHelper.getLast().getClass() == MainFragment.class || NavigationHelper.
+                getLast().getClass() == LoginFragment.class) {
             if (doubleBackToExitPressedOnce) {
                 finish();
                 return;
             }
-
             this.doubleBackToExitPressedOnce = true;
             Toast.makeText(this, getResources().getString(R.string.onbackpress_again), Toast.LENGTH_SHORT).show();
-
             new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
-
                 @Override
                 public void run() {
                     doubleBackToExitPressedOnce = false;
