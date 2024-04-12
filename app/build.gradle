@@ -30,6 +30,7 @@ android {
         viewBinding true
         dataBinding true
     }
+    namespace 'com.example.thatsmyfirstapp'
 }
 
 dependencies {
