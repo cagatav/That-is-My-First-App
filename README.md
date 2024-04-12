@@ -24,6 +24,6 @@ This project is a mobile application developed using Android Studio. The applica
 ## Clone
 
 ```bash
-git clone https://github.com/cagatav/That_s_My_First_App
+git clone https://github.com/cagatav/That-is-My-First-App
 ```
 ![photo](https://repository-images.githubusercontent.com/603117227/874ebdc5-ae4b-46f3-9a5e-cd69c96eba6f)
